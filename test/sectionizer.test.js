@@ -1,4 +1,4 @@
-var sectionizer = require('../../lib/sectionizer')
+var sectionizer = require('../sectionizer')
   , _ = require('lodash')
   , section = require('./section-fixtures').section
 

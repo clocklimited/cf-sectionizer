@@ -2,12 +2,16 @@ var _ = require('lodash')
 
 module.exports = function (lists, section) {
   if (!Array.isArray(lists)) {
-    lists = [lists]
-  }
+    return sectionize(lists, section)
+  } else {
+    var sectionizedLists = []
 
-  return _.map(lists, function (list) {
-    return sectionize(list, section)
-  })
+    _.each(lists, function (list) {
+      sectionizedLists.push(sectionize(list, section))
+    })
+
+    return sectionizedLists
+  }
 }
 
 function sectionize(list, section) {
