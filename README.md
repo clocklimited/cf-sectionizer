@@ -1,11 +1,12 @@
 # cf-sectionizer
 
-Takes a List (or array of Lists) and a section and injects the section ID into the list's section array.
+Takes a List (or array of Lists) and a Section and injects the Section ID into the List's Section array.
 
 When a `-1` is encountered, this is a `{CURRENT}` section mapping so only the current section ID is returned.
 
 When a `-2` is encountered, this is a `{CURRENTANDCHILDREN}` section mapping so the current section ID and the children of that section are returned.
 
+See tests for usage information.
 
 ## Installation
 
