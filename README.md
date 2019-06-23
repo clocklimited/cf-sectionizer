@@ -1,5 +1,7 @@
 # cf-sectionizer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/clocklimited/cf-sectionizer.svg)](https://greenkeeper.io/)
+
 **Notice:** this module is deprecated. Since v1.0.0 of cf-list-aggregator, [cf-section-extrapolator](https://github.com/clocklimited/cf-section-extrapolator) has replaced `cf-sectionizer`. This repo should only be used for supporting pre 1.0.0 versions of the list aggregator.
 
 ----
