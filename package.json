@@ -20,7 +20,7 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "lodash": "~2.0.0",
+    "lodash": "~4.17.15",
     "async": "~0.2.9"
   },
   "devDependencies": {
